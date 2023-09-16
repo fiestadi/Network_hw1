@@ -1,0 +1,62 @@
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+  background-image: url(https://img.freepik.com/premium-photo/open-blank-book-on-wood-background_488220-38125.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+h1{
+   color: rgb(108, 32, 32);
+}
+.user-card {
+   background-color: transparent;
+font-size: 20px;
+   border: none;
+   padding: 80px;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.user-info {
+   margin-top: 30px;
+   color:brown ;
+   font-size: 25px;
+}
+
+.container {
+   margin-bottom: 10px;
+}
+
+.edit-icon {
+   cursor: pointer;
+  font-size: 25px;
+   color: brown;
+   margin-left: 20px 20px;
+}
+
+.buttons {
+   margin-top: 40px;
+}
+
+button {
+   background-image: url(https://media.istockphoto.com/id/624697496/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%BD%D1%8B%D0%B5-%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D1%8B%D0%B5-%D0%B4%D0%BE%D1%81%D0%BA%D0%B8.jpg?s=612x612&w=0&k=20&c=u1Fkh9yo02yIBiW-X0teZnckNiGYKGWXBezDFEhsEfA=);
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+   margin: 0 40px; 
+}
+#editName{
+   margin-left: 10px;
+}
+#editWebsite{
+   margin-left: 20px;
+}
